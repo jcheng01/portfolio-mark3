@@ -35,13 +35,6 @@ export const skillsData = [
   React.createElement(SiReact, { size: 22, color: "#61DAFB" }),
   React.createElement(SiNextdotjs, { size: 22, color: "#000000" }),
   React.createElement(SiTailwindcss, { size: 22, color: "#06B6D4" }),
-  React.createElement(SiHtml5, { size: 22, color: "#E34F26" }),
-  React.createElement(SiCss3, { size: 22, color: "#1572B6" }),
-  React.createElement(SiSass, { size: 22, color: "#CC6699" }),
-  React.createElement(SiJavascript, { size: 22, color: "#f7df1e" }),
-  React.createElement(SiTypescript, { size: 22, color: "#3178C6" }),
-  React.createElement(SiNodedotjs, { size: 22, color: "#6cc24a" }),
-  React.createElement(SiMongodb, { size: 22, color: "#4DB33D" }),
 ];
 
 export const links = [
@@ -69,28 +62,37 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Creative Technology Developer",
+    title: "Creative Technology Developer - OUTFRONT Media",
     location: "New York, NY",
     description:
-      "Worked with creative development team to implement designs into real products to be shipped onto NYC mta transit ad displays",
+      "Worked with creative development team to implement designs into real products to be shipped onto NYC MTA transit ad displays.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2023 - Aug 2023",
+    link: "https://www.outfront.com/",
+    position: "left",
+    skills: ["React.js", "JavaScript", "HTML & SCSS"],
   },
   {
-    title: "Student Technology Consultant",
+    title: "Student Technology Consultant - Syracuse University iSchool",
     location: "Syracuse, NY",
     description:
       "Assisted senior IT department staff in resolving daily work tickets through Jira.",
     icon: React.createElement(CgWorkAlt),
     date: "2021-2024",
+    link: "https://ischool.syr.edu/",
+    position: "right",
+    skills: ["Jira", "Microsoft Excel"],
   },
   {
     title: "Syracuse University Graduate",
     location: "Syracuse, NY",
     description:
-      "I graduated with a B.S in Information Management & Technology",
+      "I graduated with a B.S in Information Management & Technology. GPA: 3.7/4.0",
     icon: React.createElement(LuGraduationCap),
     date: "2020-2024",
+    link: "https://www.syracuse.edu/",
+    position: "left",
+    skills: [],
   },
 ] as const;
 

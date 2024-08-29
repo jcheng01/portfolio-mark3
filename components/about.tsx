@@ -27,16 +27,13 @@ export default function About() {
     <section
       //   ref={ref}
       className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
-      //   initial={{ opacity: 0, y: 100 }}
-      //   animate={{ opacity: 1, y: 0 }}
-      //   transition={{ delay: 0.175 }}
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
       <div
         id="skills"
         //   ref={ref}
-        className="max-w-[53rem] scroll-mt-28 text-center px-6 whitespace-nowrap relative sm:mb-10 logos"
+        className="max-w-[53rem] scroll-mt-28 text-center px-6 whitespace-nowrap relative sm:mb-10 xtsm logos"
       >
         <ul className="flex flex-row justify-center gap-2 text-lg text-gray-800 logos-slide">
           {skillsData.map((skill, index) => (

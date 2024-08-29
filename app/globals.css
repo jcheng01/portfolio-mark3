@@ -18,6 +18,47 @@
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+/* .logos:hover .logos-slide {
+  /* animation-play-state: paused; */
+/* } */
+
+.logos-slide {
+  /* display: inline-block; */
+  animation: 20s slide infinite linear;
+}
+
+.logos-slide li {
+  height: 50px;
+  margin: 0 30px;
+}
+
 /* 
 :root {
   --foreground-rgb: 0, 0, 0;

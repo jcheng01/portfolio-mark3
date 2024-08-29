@@ -80,7 +80,7 @@ export const experiencesData = [
     title: "Student Technology Consultant",
     location: "Syracuse, NY",
     description:
-      "Assisted senior IT department staff in resolving daily work tickets through Jira. ",
+      "Assisted senior IT department staff in resolving daily work tickets through Jira.",
     icon: React.createElement(CgWorkAlt),
     date: "2021-2024",
   },

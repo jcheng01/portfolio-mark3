@@ -34,7 +34,7 @@ export default function Experience() {
                     boxShadow: "none",
                     border: "1px solid rgba(0, 0, 0, 0.05)",
                     padding: "1.3rem 2rem",
-                    margin: "1rem",
+                    // margin: ".7rem",
                     visibility: "visible",
                   }}
                   contentArrowStyle={{
@@ -59,7 +59,7 @@ export default function Experience() {
                   {item.skills.map((value, index) => (
                     <span
                       key={index}
-                      className="text-gray-700 rounded-xl py-1 px-2  mr-2  gradient text-[12px] font-medium italic"
+                      className="text-gray-700 rounded-xl py-1 px-2 mt-2  mr-2  gradient text-[12px] font-medium italic "
                     >
                       {value}
                     </span>

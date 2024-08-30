@@ -37,6 +37,10 @@ export const skillsData = [
   React.createElement(SiTailwindcss, { size: 22, color: "#06B6D4" }),
 ];
 
+import corpcommentImg from "@/public/corpcomment.png";
+import rmtdevImg from "@/public/rmtdev.png";
+import wordanalyticsImg from "@/public/wordanalytics.png";
+
 export const links = [
   {
     name: "Home",
@@ -103,7 +107,7 @@ export const projectsData = [
       "Second iteration of personal website demonstrating responsive styling using media queries and modern CSS. Implemented React libary to handle shared logic within component tree.",
     tags: ["React.js", "Next.js", "SCSS", "JavaScript"],
     date: "Spring 2023",
-    //   imageUrl: ,
+    imageUrl: corpcommentImg,
   },
   {
     title: "MERN Ecommerce App",
@@ -111,13 +115,13 @@ export const projectsData = [
       "MERN stack application of an Ecommerce site, built with authentication middleware utilizing Express.js routing. Purchase functionality integrated through Stripe API request. Uses Node.js and Express.js to manage self-created user accounts and data retrieval on a backend database hosted by MongoDB",
     tags: ["React,js", "Node.js", "Express.js", "MongoDB"],
     date: "Fall 2023",
-    //   imageUrl: ,
+    imageUrl: rmtdevImg,
   },
   {
     title: "Hangman Game",
     description:
       "Integrated Typescript support with React state management to build a classic childrens game. Implemented type-safe user inputs when working with JavaScript event listeners to reduce page errors.",
     tags: ["React", "TypeScript", "Tailwind CSS"],
-    //   imageUrl: ,
+    imageUrl: wordanalyticsImg,
   },
 ] as const;

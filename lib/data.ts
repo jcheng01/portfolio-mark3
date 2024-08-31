@@ -37,9 +37,10 @@ export const skillsData = [
   React.createElement(SiTailwindcss, { size: 22, color: "#06B6D4" }),
 ];
 
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import mark2 from "@/public/mark2.png";
+import mark1 from "@/public/mark1.png";
+import ecommerceapp from "@/public/ecommerceapp.png";
+import hangman from "@/public/hangman.png";
 
 export const links = [
   {
@@ -107,21 +108,34 @@ export const projectsData = [
       "Second iteration of personal website demonstrating responsive styling using media queries and modern CSS. Implemented React libary to handle shared logic within component tree.",
     tags: ["React.js", "Next.js", "SCSS", "JavaScript"],
     date: "Spring 2023",
-    imageUrl: corpcommentImg,
+    imageUrl: mark2,
+    url: "https://justin-cheng.vercel.app/",
   },
+
   {
-    title: "MERN Ecommerce App",
+    title: "Ecommerce App",
     description:
-      "MERN stack application of an Ecommerce site, built with authentication middleware utilizing Express.js routing. Purchase functionality integrated through Stripe API request. Uses Node.js and Express.js to manage self-created user accounts and data retrieval on a backend database hosted by MongoDB",
+      "Ecommerce site built using MERN stack. Authentication middleware utilizing Express.js routing. Purchase functionality through Stripe API. Node.js and Express.js to host backend requests on MongoDB.",
     tags: ["React,js", "Node.js", "Express.js", "MongoDB"],
     date: "Fall 2023",
-    imageUrl: rmtdevImg,
+    imageUrl: ecommerceapp,
+    url: "https://github.com/jcheng01/ecommerceApp",
   },
   {
     title: "Hangman Game",
     description:
       "Integrated Typescript support with React state management to build a classic childrens game. Implemented type-safe user inputs when working with JavaScript event listeners to reduce page errors.",
     tags: ["React", "TypeScript", "Tailwind CSS"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: hangman,
+    url: "https://jcheng01.github.io/hangman-game/",
+  },
+  {
+    title: "Portfolio Mark 1",
+    description:
+      "First interaction of my personal Website created with raw HTML/SCSS JavaScript. Implemented my own webpack to compile JS. Fun self- project to work on responsive UI.",
+    tags: ["React,js", "Node.js", "Express.js", "MongoDB"],
+    date: "Fall 2023",
+    imageUrl: mark1,
+    url: "https://justincheng2.netlify.app/",
   },
 ] as const;

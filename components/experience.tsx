@@ -34,8 +34,10 @@ export default function Experience() {
                     boxShadow: "none",
                     border: "1px solid rgba(0, 0, 0, 0.05)",
                     padding: "1.3rem 2rem",
-                    // margin: ".7rem",
                     visibility: "visible",
+                    margin: 0,
+                    marginBottom: "2.5rem",
+                    marginInline: ".55rem",
                   }}
                   contentArrowStyle={{
                     visibility: "hidden",
@@ -48,7 +50,7 @@ export default function Experience() {
                     fontSize: "1.5rem",
                     visibility: "visible",
                   }}
-                  textClassName={"vertical-timeline-element"}
+                  textClassName={`vertical-timeline-${item.position}`}
                   position={item.position}
                 >
                   <h3 className="block font-semibold capitalize text-gray-700 ">

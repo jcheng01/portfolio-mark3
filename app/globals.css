@@ -52,13 +52,22 @@ html {
   }
 }
 
-.vertical-timeline-element {
+.vertical-timeline-right {
   transform: translateX(0);
   transition: transform 0.3s ease-out;
 }
 
-.vertical-timeline-element:hover {
+.vertical-timeline-right:hover {
   transform: translateX(10px);
+}
+
+.vertical-timeline-left {
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+
+.vertical-timeline-left:hover {
+  transform: translateX(-10px);
 }
 
 .logos:before,

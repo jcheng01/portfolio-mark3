@@ -60,13 +60,13 @@ export default function intro() {
           //     setTimeOfLastClick(Date.now());
           //   }}
         >
-          Contact me here{" "}
+          Contact Me{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer border border-black/10"
-          href="/cheng2025.may.pdf"
+          href="/cheng2025.pdf"
           download
         >
           Download Résumé{" "}

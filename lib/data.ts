@@ -83,7 +83,7 @@ export const experiencesData = [
     description:
       "Assisted senior IT department staff in resolving daily work tickets through Jira.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021-2024",
+    date: "2021 - 2024",
     link: "https://ischool.syr.edu/",
     position: "right",
     skills: ["Jira", "Microsoft Excel"],
@@ -94,7 +94,7 @@ export const experiencesData = [
     description:
       "I graduated with a B.S in Information Management & Technology. GPA: 3.7/4.0",
     icon: React.createElement(LuGraduationCap),
-    date: "2020-2024",
+    date: "2020 - 2024",
     link: "https://www.syracuse.edu/",
     position: "left",
     skills: [],

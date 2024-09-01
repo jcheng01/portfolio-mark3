@@ -109,7 +109,7 @@ export const projectsData = [
     tags: ["React.js", "Next.js", "SCSS", "JavaScript"],
     date: "Spring 2023",
     imageUrl: mark2,
-    url: "https://justin-cheng.vercel.app/",
+    url: "https://justin-cheng-mark2.vercel.app/",
   },
 
   {

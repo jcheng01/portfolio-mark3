@@ -41,7 +41,7 @@ export default function intro() {
         <span className="font-bold">Hello, I'm Justin.</span> I'm a{" "}
         <span className="font-bold">Front-End Engineer</span> looking for{" "}
         <span className="font-bold">Web/UI</span> new opportunities in your
-        development team. Welcome to my portfolio website Mark 3.
+        development team. Welcome to my portfolio website Mark 3. "In Progress"
       </motion.p>
 
       <motion.div

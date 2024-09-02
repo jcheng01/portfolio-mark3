@@ -21,7 +21,7 @@ const fadeInAnimationVariants = {
 };
 
 export default function About() {
-  //   const { ref } = useSectionInView("About");
+  // const { ref } = useSectionInView("About");
 
   return (
     <section
@@ -32,7 +32,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <div
         id="skills"
-        //   ref={ref}
+        // ref={ref}
         className="max-w-[53rem] scroll-mt-28 text-center px-6 whitespace-nowrap relative sm:mb-10 xtsm logos"
       >
         <ul className="flex flex-row justify-center gap-2 text-lg text-gray-800 logos-slide">

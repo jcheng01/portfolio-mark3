@@ -9,15 +9,13 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { motion } from "framer-motion";
-// import { useSectionInView } from "@/lib/hooks";
-// import { useTheme } from "@/context/theme-context";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Experience() {
-  // const { ref } = useSectionInView("Experience");
-  // const { theme } = useTheme();
+  const { ref } = useSectionInView("Experience");
 
   return (
-    <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
+    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}

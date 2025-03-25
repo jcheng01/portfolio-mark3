@@ -70,7 +70,7 @@ export const experiencesData = [
     title: "Creative Technology Developer - OUTFRONT Media",
     location: "New York, NY",
     description:
-      "Worked with creative development team to implement designs into real products to be shipped onto NYC MTA transit ad displays.",
+      "Worked with creative development team to implement designs into real web based ads on NYC MTA transit displays.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2023 - Aug 2023",
     link: "https://www.outfront.com/",
@@ -78,7 +78,7 @@ export const experiencesData = [
     skills: ["React.js", "JavaScript", "HTML & SCSS"],
   },
   {
-    title: "Student Technology Consultant - Syracuse University iSchool",
+    title: "IT Helpdesk Assistant - Syracuse University iSchool",
     location: "Syracuse, NY",
     description:
       "Assisted senior IT department staff in resolving daily work tickets through Jira.",
@@ -89,10 +89,9 @@ export const experiencesData = [
     skills: ["Jira", "Microsoft Excel"],
   },
   {
-    title: "Syracuse University Graduate",
+    title: "Syracuse University",
     location: "Syracuse, NY",
-    description:
-      "I graduated with a B.S in Information Management & Technology. GPA: 3.7/4.0",
+    description: "B.S: Information Management & Technology. GPA: 3.7/4.0",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2024",
     link: "https://www.syracuse.edu/",

@@ -3,18 +3,18 @@
 import React from "react";
 import SectionHeading from "./sectionHeading";
 import { motion } from "framer-motion";
-// import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "@/lib/hooks";
 // import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submitBtn";
 // import toast from "react-hot-toast";
 
 export default function Contact() {
-  //   const { ref } = useSectionInView("Contact");
+  const { ref } = useSectionInView("Contact");
 
   return (
     <motion.section
       id="contact"
-      //   ref={ref}
+      ref={ref}
       className="mt-20 mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
       initial={{
         opacity: 0,
@@ -36,10 +36,10 @@ export default function Contact() {
         <a className="underline" href="mailto:chengjustin24@gmail.com">
           chengjustin24@gmail.com
         </a>{" "}
-        or through this form.
+        {/* or through this form. */}
       </p>
 
-      <form className="mt-10 flex flex-col dark:text-black">
+      {/* <form className="mt-10 flex flex-col dark:text-black">
         <input
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="senderEmail"
@@ -56,7 +56,7 @@ export default function Contact() {
           maxLength={5000}
         />
         <SubmitBtn />
-      </form>
+      </form> */}
     </motion.section>
   );
 }

@@ -4,7 +4,7 @@ import React from "react";
 import SectionHeading from "./sectionHeading";
 import { motion } from "framer-motion";
 import { skillsData } from "@/lib/data";
-// import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "@/lib/hooks";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -21,18 +21,18 @@ const fadeInAnimationVariants = {
 };
 
 export default function About() {
-  // const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("About");
 
   return (
     <section
-      //   ref={ref}
+      ref={ref}
       className="mt-28 mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
       <div
         id="skills"
-        // ref={ref}
+        ref={ref}
         className="max-w-[53rem] scroll-mt-28 text-center px-6 whitespace-nowrap relative sm:mb-10 xtsm logos"
       >
         <ul className="flex flex-row justify-center gap-2 text-lg text-gray-800 logos-slide">
@@ -63,14 +63,13 @@ export default function About() {
           React.js, Next.js, Node.js, and MongoDB
         </span>
         . I am also familiar with TypeScript and Express. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        learn new technologies.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and beeing with family. I also enjoy{" "}
+        video games, watching sports, and being with friends and family. I also
+        enjoy{" "}
         <span className="font-medium">
           keeping up with the new updates and dev tools within development
         </span>
